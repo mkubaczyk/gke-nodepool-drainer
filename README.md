@@ -1,8 +1,8 @@
 # GKE Node pool drainer
 
 This script cordons defined node pools, scales up defined resources (so there's no problem with Pod disruption budget etc.)
-and then drains the nodes, so the resources schedules themselves on the node pools not covered by the script's run. 
-Then drained node pools, since they are empty, can be destroyed.
+and then drains the nodes, so the resources schedule themselves on the node pools not covered by the script's run. 
+Then drained node pools (since they are empty) can be destroyed.
 
 ## How to run
 
